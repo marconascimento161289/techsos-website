@@ -1,0 +1,55 @@
+{
+    "business_name": "TechSOS",
+    "owner": "Marco Aurelio Silva do Nascimento",
+    "location": {
+        "address": "Galerias de Alvalade, Avenida da Igreja 15, Loja 3",
+        "postal_code": "1700-231",
+        "city": "Lisboa",
+        "region": "Alvalade"
+    },
+    "contacts": {
+        "whatsapp": "+351 914 312 644",
+        "website": "techsos-loja-oficial.vercel.app"
+    },
+    "mission": "Proporcionar soluções tecnológicas premium que combinam sustentabilidade, rapidez e confiança através da economia circular.",
+    "services": [
+        {
+            "name": "Reparação de Ecrãs",
+            "description": "Substituição imediata utilizando componentes de alta qualidade.",
+            "time": "Aproximadamente 30-60 minutos"
+        },
+        {
+            "name": "Reparação de Baterias",
+            "description": "Troca de baterias com células certificadas.",
+            "time": "Aproximadamente 30 minutos"
+        },
+        {
+            "name": "Micro-Soldadura (Nível 3)",
+            "description": "Recuperação de placas principais (Motherboards), FaceID e danos por líquidos.",
+            "specialty": "Única loja na região com técnicos nível 3 internos."
+        },
+        {
+            "name": "Venda de iPhones",
+            "description": "iPhones novos e recondicionados Grade A+ com garantia."
+        }
+    ],
+    "pricing_repair_lcd": {
+        "iPhone 11": "€ 80,00",
+        "iPhone 12": "€ 110,00",
+        "iPhone 13": "€ 130,00",
+        "iPhone 14": "€ 160,00",
+        "iPhone 15 Pro Max": "€ 250,00",
+        "iPhone 16 Pro Max": "€ 350,00"
+    },
+    "payment_methods": [
+        "Klarna (Pague em 3x sem juros)",
+        "MB Way",
+        "Transferência Bancária",
+        "PayPal",
+        "Numerário/Cartão em loja"
+    ],
+    "additional_info": {
+        "points_of_interest": "Próximo ao McDonald's de Alvalade e bancos CGD/Millennium.",
+        "shipping": "Ponto oficial de recolha e envio DHL e CTT."
+    }
+}
