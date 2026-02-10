@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  --color-primary: #fb8c00;
+  /* SOS Orange */
+  --color-primary-foreground: #ffffff;
+  --color-accent: #d4af37;
+  /* Tech Gold */
+  --color-background: #0a0a0a;
+  --color-foreground: #ffffff;
+}
+
+@layer base {
+  * {
+    @apply border-white/10;
+  }
+
+  body {
+    @apply bg-background text-foreground selection:bg-primary/30 antialiased;
+    font-family: var(--font-sans), system-ui, sans-serif;
+  }
+
+  /* Custom Scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-black;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-zinc-800 rounded-full border-2 border-black hover:bg-zinc-700 transition-colors;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/5 backdrop-blur-xl border border-white/10;
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent;
+  }
+
+  .hero-mask {
+    mask-image: radial-gradient(circle at center, black, transparent 70%);
+  }
+}
